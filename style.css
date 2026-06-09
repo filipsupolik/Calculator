@@ -16,11 +16,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 500px;
+  width: 380px;
   height: 600px;
   border-radius: 25px;
   border: 4px solid #000;
-  background-color: #837f7f;
+  background-color: #5e5a5a;
 }
 
 .display {
@@ -33,4 +33,32 @@ body {
   border: 4px solid black;
   background-color: #ece3d9;
   font-size: 50px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.button {
+  width: 75px;
+  height: 60px;
+  background-color: #bdb7b7;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.button.result {
+  flex: 2 1;
+}
+
+.button.opClear, .button.opDel {
+  background-color: #8b8787;
+}
+
+.button.operation {
+background-color: bisque;
 }
